@@ -56,3 +56,9 @@ console.log("All Courses:", allCourses);
 student.addCourse("Kali Linux");
 console.log("Courses Updated:", student.courses);
 console.log("Total Courses:", student.totalCourses());
+
+// Part 6: Bonus Task
+
+const averageScore = scores.reduce((acc, score) => acc + score, 0) / scores.length;
+console.log("Average Score:", averageScore);
+
