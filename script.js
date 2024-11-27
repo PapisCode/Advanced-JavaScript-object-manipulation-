@@ -22,3 +22,13 @@ console.log(student.name);
 console.log(student.age);
 console.log(student.courses);
 console.log(student.displayInfo());
+
+
+// Part 2: JSON
+
+const studentJSON = JSON.stringify(student);
+console.log("JSON String:", studentJSON);
+
+const parsedStudent = JSON.parse(studentJSON);
+console.log("Parsed Object:", parsedStudent);
+
