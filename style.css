@@ -1,6 +1,11 @@
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 25px;
+    background-color: blanchedalmond;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 h1 {
