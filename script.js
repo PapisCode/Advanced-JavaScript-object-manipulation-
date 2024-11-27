@@ -50,3 +50,9 @@ console.log("Cloned Student:", clonedStudent);
 const newCourses = ["Web Programming", "Operating Systems", "Technical Reading and Writing Skills"];
 const allCourses = [...student.courses, ...newCourses];
 console.log("All Courses:", allCourses);
+
+// Part 5: Object Methods
+
+student.addCourse("Kali Linux");
+console.log("Courses Updated:", student.courses);
+console.log("Total Courses:", student.totalCourses());
